@@ -1,0 +1,66 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+.cont1 {
+    padding: 10px;
+    border: 1px solid silver;
+}
+.cont2 {
+    padding: 10px;
+    border: 1px solid silver;
+}
+.cont3 {
+    padding: 10px;
+    border: 1px solid silver;
+}
+.cont4 {
+    padding: 10px;
+    border: 1px solid silver;
+}
+.cont-pr1 div{
+    display: flex;
+}
+.task0 {
+    padding: 10px;
+    border: 1px solid silver;
+}
+.task1 {
+    padding: 10px;
+    border: 1px solid silver;
+}
+.task2 {
+    padding: 10px;
+    border: 1px solid silver;
+}
+.task3 {
+    padding: 10px;
+    border: 1px solid silver;
+}
+.task4 {
+    padding: 10px;
+    border: 1px solid silver;
+}
+.task5 {
+    padding: 10px;
+    border: 1px solid silver;
+}
+.task6 {
+    padding: 10px;
+    border: 1px solid silver;
+}
+h1, h2 {
+    text-align: center;
+}
+.task2-1, .task2-2, .task2-3, .task2-4, .task2-4, .task2-5, .task2-6, .task2-7, .task2-8, .task2-9, .task2-10, .task2-11 {
+    padding: 10px;
+    border: 1px solid silver;
+}
+div.questionBlock {
+    display: none;
+}
+
+.other{
+    padding: 10px;
+    border: 1px solid silver;
+}
