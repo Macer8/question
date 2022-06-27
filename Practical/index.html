@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="src/style.css">
+  <title>Work</title>
+          <meta charset="utf-8">
+        <style>
+			body {
+			background: #000 url(1.png); 
+			color: #fff; 
+			background-attachment: fixed; 
+			background-repeat: repeat-x; 
+			}
+		
+             ul.nav{
+                margin-left: 0px;
+                padding-left: 0px;
+                list-style: none;
+            }
+            .nav li { 
+                float: left;
+            }
+            ul.nav a {
+                display: block;
+                width: 5em;
+                padding:8px;
+                margin: 0 5px;
+                background-color: #f4f4f4;
+                border: 1px dashed #333;
+                text-decoration: none;
+                color: black;
+                text-align: center;
+            }
+            ul.nav a:hover{
+                background-color: red;
+                color: #f4f4f4;
+            }
+        </style>
+</head>
+    <body>
+	<hr>
+        <ul class="nav">
+			<li><a type="button" id='t3';">Проверка запросов</a></li>
+			<li><a type="button" onclick="window.location.href = 'quiz.html';">Пройти тест</a></li>
+            <li><a type=button  value="дату и время"onclick="DataTime()">Дата Время</a></li>
+			
+			<div id=data_time></div></a>
+			
+        </ul>
+		<script> 
+                let name = prompt("Введите Ваше имя");
+        </script>
+		
+    </body>
+	<br><br><br>
+	<hr>
+	<div class="cont2">
+            <h2>Привет, <script>document.write(name); </script> !</h2>
+        </div>
+	<hr>
+  <p>
+    <b>JavaScript ("JS" для краткости)</b> — это полноценный динамический язык программирования,
+    который применяется к HTML документу, и может обеспечить динамическую интерактивность
+    на веб-сайтах. Его разработал <i>Brendan Eich</i>, сооснователь проекта <i>Mozilla</i>,
+    <i>Mozilla Foundation</i> и <i>Mozilla Corporation</i>.
+  </p>
+
+  <p>
+    <b>JavaScript</b> обычно используется как встраиваемый язык для программного доступа
+    к объектам приложений. Наиболее широкое применение находит в браузерах как язык
+    сценариев для придания интерактивности веб-страницам.
+  </p>
+ 
+  <hr>
+  <p>
+    <h3>В <b>JavaScript</b>:</h3>
+    <ul>
+      <li>Все идентификаторы регистрозависимы;</li>
+      <li>В названиях переменных можно использовать буквы, подчёркивание, символ доллара, арабские цифры;</li>
+      <li>Названия переменных не могут начинаться с цифры;</li>
+      <li>
+        Для оформления однострочных комментариев используется <code>//</code>, 
+        многострочные и внутристрочные комментарии начинаются с <code>/*</code> и заканчиваются<code>*/</code>.
+      </li>
+    </ul>
+  </p>
+  <hr>
+  <p>
+    <h3>Структура <b>JavaScript</b>:</h3>
+    <ol>
+      <li>Ядро (ECMAScript);</li>
+      <li>Объектная модель браузера (Browser Object Model или BOM);</li>
+      <li>Объектная модель документа (Document Object Model или DOM).</li>
+    </ol>
+  </p>
+  <hr><br><br>
+  <form>
+    <br> 
+  </form><br><br>
+
+	<form>                               
+         <script>
+         t3.onclick=function(){
+		 // #0
+		var x = 123;
+		console.log(typeof x)
+			if (true) {
+				alert(x)
+						} else {
+								alert(x)
+								}
+
+					// #1
+					let age = prompt('Укажите ваш возраст:')
+						switch (age){
+							case age < 18 && age > 4:
+								alert(`Вы не достигли совершенного возраста! Вам - ${age} лет!`)
+							break
+						case age >= 18 && age < 100:
+							alert(`Вы достигли совершенного возраста! Вам - ${age} лет!`)
+						break
+						default:
+							alert('Вы ввели некорректный возраст!')
+}
+
+						// #2
+						let i = 1;
+						while (i <= 40) {
+						console.log(i)
+							i++
+						}
+						let j = 1;
+							do {
+								console.log(j)
+								j++
+								} while (j < 40)
+							for (let k = 1; k <= 40; k++) {						
+							console.log(k)
+							}
+
+							// #3
+							while (true) {
+								alert('VIRUS!!!1!1')
+							}
+
+							// #4
+							let num = prompt('Введите число больше:')
+							switch (num) {
+								case num > 5:
+									alert('Поздравляем!')
+									break
+								case num === null:
+									alert('Вы закрыли окно!')
+									break
+								default:
+									num = prompt('Введите число повторно!')
+									num > 5 ? alert('Поздравляем!') : alert('Ошибка!')
+							}
+
+							// #5
+							for(let i = 8; i <= 20; i+=2) console.log(i)
+
+							// #6
+							for(let i = 1; i <= 7; i+=2){
+								if (i === 5) continue
+								console.log(i)
+							}
+																};
+                                </script>
+                                </form>
+
+							<script src="src/script.js"></script>
+							<SCRIPT LANGUAGE="JavaScript">
+	
+							function DataTime(){
+
+							my = new Date();
+							var mpo = my.getMonth();
+							var mpo1 = mpo + 1
+							var msg="<font color='white'> Сегодня у нас " + my.getDate() + "." + mpo1 + "." + my.getFullYear() + "." + " А время " + my.getHours() + " часов " + my.getMinutes() + " минут и " + my.getSeconds() + " секунд.</font>";
+							document.getElementById('data_time').innerHTML=msg;
+							}
+						</SCRIPT>
+		</body>
+</html>

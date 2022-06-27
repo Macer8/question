@@ -1,0 +1,56 @@
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  color: #fcbe24;
+  background-color: Black;
+  font-family: Cambria;
+  padding-left: 22%;
+  padding-right: 22%;
+}
+
+#title {
+  text-align: center;
+  font-style: oblique;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+p {
+  text-align: justify;
+}
+
+hr {
+  border-color: blue;
+}
+
+#buttonsPW {
+  text-align: center;
+}
+
+.buttonsNav {
+  background-color: #18222d;
+  color: #fc8803;
+  font-family: Cambria;
+  font-size: 18pt;
+  width: 48%;
+  border: solid 2px #fcbe24;
+  border-radius: 10px;
+}
+
+.buttonsNav:hover {
+  background-color: #354c64;
+  color: #be7b2f;
+}
+
+a {
+  text-decoration: none;
+}
+
